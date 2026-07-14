@@ -1,0 +1,4 @@
+firebase-admin
+pydantic-settings
+requests
+google-api-python-client
