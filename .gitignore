@@ -1,0 +1,12 @@
+.env
+.env.local
+frontend/.env
+firebase-service-account.json
+serviceAccountKey.json
+venv/
+__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/dist/
+.vscode/
+.idea/

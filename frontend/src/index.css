@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* Warna Navy Gelap khas ApartKu */
+  background-color: #0F1F3D; 
+  margin: 0;
+  padding: 0;
+  color: white; /* Default teks jadi putih */
+}
