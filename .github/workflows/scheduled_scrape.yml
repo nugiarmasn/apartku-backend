@@ -28,4 +28,9 @@ jobs:
         env:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          MIDTRANS_SERVER_KEY: "not-used-in-scraping"
+          MIDTRANS_CLIENT_KEY: "not-used-in-scraping"
+          MAIL_USERNAME: "not-used-in-scraping"
+          MAIL_PASSWORD: "not-used-in-scraping"
+          MAIL_FROM: "not-used-in-scraping@example.com"
         run: python scripts/scheduled_scrape.py
